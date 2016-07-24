@@ -1,0 +1,18 @@
+.dialog {
+ width: 100%;
+}
+
+@media (max-width: 767px) {
+  .dialog > div > div {
+    transform: translate3d(0px, -78px, 0px)!important;
+    width: 90%!important;
+  }
+  .dialog > div > div > div > div {
+    padding: 12px 0!important;
+  }
+  .dialog > div > div > div > div form button[type=submit] {
+    font-size: 22px!important;
+    margin-top: .5em!important;
+  }
+}
+

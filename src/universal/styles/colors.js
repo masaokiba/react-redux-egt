@@ -1,0 +1,15 @@
+export const mutedText = '#777777';
+export const orange = '#e35927';
+export const black = '#000000';
+export const white = '#ffffff';
+export const lightGrey = '#EEECEA';
+export const bgGrey = '#f2f1ef';
+export const grey = 'rgba(2, 1, 1, 0.501961)';
+export const orangeAlt = '#f04912';
+export const yellow = '#ffe600';
+export const tableRow = bgGrey;
+export const tableRowAlt = '#e9e8e4';
+export const tableHeaderGrey = '#f6f6f6';
+export const darkGrey = '#666666';
+export const successBackground = "#f5fbed";
+export const dangerBackground = "#ffd1d1";
