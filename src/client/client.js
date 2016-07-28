@@ -19,7 +19,8 @@ const {
   form,
   leads,
   identity,
-  experiments
+  experiments,
+  cart
 } = window.__INITIAL_STATE__;
 
 // form & routing are currently regular JS objects. This may change in the future
@@ -32,7 +33,8 @@ const initialState = Map([
   ['form', form],
   ['leads', fromJS(leads)],
   ['identity', fromJS(identity)],
-  ['experiments', fromJS(experiments)]
+  ['experiments', fromJS(experiments)],
+  ['cart', fromJS(cart)]
 ]);
 
 // Create the store:

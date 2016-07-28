@@ -10,6 +10,6 @@ export const yellow = '#ffe600';
 export const tableRow = bgGrey;
 export const tableRowAlt = '#e9e8e4';
 export const tableHeaderGrey = '#f6f6f6';
-export const darkGrey = '#666666';
+export const darkGrey = '#8a8a8a';
 export const successBackground = "#f5fbed";
 export const dangerBackground = "#ffd1d1";

@@ -34,7 +34,8 @@ export default class Section extends Component {
       even,
       contained,
       dividerTop,
-      dividerBottom
+      dividerBottom,
+      padding
     } = this.props;
 
     let sectionStyle = styles.section;
@@ -73,6 +74,12 @@ export default class Section extends Component {
     if (contained) {
       sectionStyle = Object.assign({}, sectionStyle, {
         padding: '2em'
+      });
+    }
+
+    if (padding) {
+      sectionStyle = Object.assign({}, sectionStyle, {
+        padding
       });
     }
 

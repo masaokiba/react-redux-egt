@@ -7,6 +7,7 @@ export default store => {
       // require('./landingPage')(store),
       require('./promo')(store),
       require('./downsell')(store),
+      require('./upsell')(store),
       // require('./product')(store),
       // require('./accounts')(store),
       require('./notFound')

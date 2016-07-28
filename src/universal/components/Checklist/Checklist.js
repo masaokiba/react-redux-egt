@@ -53,13 +53,30 @@ export default class Checklist extends Component {
       items,
       stripe,
       titles,
-      longText
+      longText,
+      padding,
+      backgroundPosition,
+      textAlign,
+      paddingLeft,
+      minHeight
     } = this.props;
     let count = 0;
 
+    let ulStyle = styles.ul;
+    if (textAlign) {
+      ulStyle = Object.assign({}, ulStyle, {
+        textAlign
+      })
+    }
+
+    if (minHeight) {
+      ulStyle = Object.assign({}, ulStyle, {
+        minHeight
+      })
+    }
 
     return (
-      <ul style={styles.ul}>
+      <ul style={ulStyle}>
         {items.map((item) => {
           let liStyle = styles.li;
           count = count + 1;
@@ -85,6 +102,24 @@ export default class Checklist extends Component {
               fontSize: 25,
               backgroundPosition: '10px 28px'
             });
+          }
+
+          if (padding) {
+            liStyle = Object.assign({}, liStyle, {
+              padding
+            })
+          }
+
+          if (backgroundPosition) {
+            liStyle = Object.assign({}, liStyle, {
+              backgroundPosition
+            })
+          }
+
+          if (paddingLeft) {
+            liStyle = Object.assign({}, liStyle, {
+              paddingLeft
+            })
           }
 
           return (

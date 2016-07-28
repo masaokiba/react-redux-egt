@@ -3,7 +3,7 @@ import {Grid, Row, Col} from 'react-bootstrap';
 import Radium from 'radium';
 import pxToEm from 'universal/utils/pxToEm';
 import {centerBlock, imgResponsive} from 'universal/styles/helpers';
-import {button} from 'universal/styles/buttons';
+import {button, activeButton} from 'universal/styles/buttons';
 import {headerStack} from 'universal/styles/fonts';
 
 import buttonBg from './images/button-circle-bg.png';
@@ -31,6 +31,7 @@ const styles = {
     marginRight: 'auto'
   },
   button: button,
+  activeButton: activeButton,
   payments: Object.assign({
     marginTop: '1rem'
   }, centerBlock, imgResponsive),
@@ -58,17 +59,27 @@ export default class AddToCartButton extends Component {
     small: false
   }
 
+  handleAddToCart = () => {
+    const {disabled, addToCart} = this.props;
+    if (!disabled) {
+      return addToCart();
+    }
+  }
+
   render() {
     const {
       addToCart,
       cards,
+      activeText,
       text,
       circle,
       small,
-      securePayments
+      securePayments,
+      active
     } = this.props;
 
-    let buttonStyles = Object.assign({}, styles.button, this.props.buttonStyles);
+    let buttonText = active ? activeText : text;
+    let buttonStyles = Object.assign({}, active?styles.activeButton:styles.button, this.props.buttonStyles);
     let buttonContainer = circle ? styles.buttonContainerCircle : styles.buttonContainer;
 
     if (small) {
@@ -88,10 +99,14 @@ export default class AddToCartButton extends Component {
       });
     }
 
+    if (active) {
+
+    }
+
     return (
       <div style={buttonContainer}>
-        <a style={buttonStyles} onTouchTap={addToCart}>
-          {text}
+        <a style={buttonStyles} onTouchTap={this.handleAddToCart}>
+          {buttonText}
         </a>
         {cards ? <img style={styles.payments} src={paymentTypes} alt="Payments Accepted"/> : null}
         {securePayments ? <h4 style={styles.securePayments}>100% Secure Payments</h4> : null}

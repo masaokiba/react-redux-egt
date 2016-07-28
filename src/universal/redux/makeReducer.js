@@ -8,6 +8,7 @@ import promo from '../ducks/promo';
 import abandon from '../ducks/abandon';
 import experiments from '../ducks/experiments';
 import analytics from '../ducks/analytics';
+import cart from '../ducks/cart';
 import {routing} from './routing';
 
 const currentReducers = {
@@ -19,7 +20,8 @@ const currentReducers = {
   promo,
   abandon,
   experiments,
-  analytics
+  analytics,
+  cart
 };
 
 export default (newReducers, reducerEnhancers) => {
