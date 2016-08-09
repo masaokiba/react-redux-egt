@@ -47,7 +47,7 @@ export default class UpsellContainer extends Component {
           ],
           normalPrice: 588,
           salePrice: 47,
-          productId: 'EJTPKG'
+          productId: 'EJTPKG5'
         },
         {
           subtitle: '83% OFF',
@@ -64,7 +64,7 @@ export default class UpsellContainer extends Component {
           ],
           normalPrice: 585,
           salePrice: 97,
-          productId: 'EJT5FOR1'
+          productId: 'EGTSIGNATURE97'
         },
         {
           subtitle: '90% OFF',
@@ -80,10 +80,9 @@ export default class UpsellContainer extends Component {
             'The Sniper Series (normally $197)'
           ],
           normalPrice: 655,
-          salePrice: 67,
+          salePrice: 47,
           productId: 'EGTPROPKG'
-        },
-
+        }
       ]
 
     let promo = {};

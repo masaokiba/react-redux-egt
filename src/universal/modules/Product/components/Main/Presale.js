@@ -5,7 +5,6 @@ import PlayersWorkedWith from '../PlayersWorkedWith/PlayersWorkedWith';
 import MeetTheCoach from '../MeetTheCoach/MeetTheCoach';
 import Logos from '../Logos/Logos';
 import MainProduct from '../MainProduct/MainProduct';
-import Steps from '../Steps/Steps';
 import MimicsRealGamesSection from '../MimicsRealGames/MimicsRealGamesSection';
 import GameSpecificSection from '../GameSpecific/GameSpecificSection';
 import Guarantee from 'universal/components/Guarantee/Guarantee';

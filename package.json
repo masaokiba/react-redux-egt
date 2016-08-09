@@ -1,6 +1,6 @@
 {
   "name": "4wfs",
-  "version": "1.10.1",
+  "version": "1.10.5",
   "engines": {
     "node": "5.7.0"
   },

@@ -26,7 +26,6 @@ const styles = {
     fontSize: `1em`,
     fontFamily: headerStack,
     fontWeight: accuBlack,
-    textAlign: 'center',
     lineHeight: '1em',
     marginBottom: '.1em',
     textAlign: 'center',

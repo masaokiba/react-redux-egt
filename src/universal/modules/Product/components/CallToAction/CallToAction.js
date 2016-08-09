@@ -70,7 +70,6 @@ const styles = {
     fontSize: `1em`,
     color: black,
     textAlign: 'center',
-    marginTop: 0,
     marginBottom: 0,
     textTransform: 'uppercase',
     lineHeight: '.85em',

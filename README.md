@@ -1,4 +1,4 @@
-# React Redux EGT Website.
+# Elite Guard Training 2
 
 ##Installation
 - Install RethinkDB. https://www.rethinkdb.com/docs/install/

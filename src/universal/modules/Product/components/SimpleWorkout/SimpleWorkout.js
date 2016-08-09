@@ -28,7 +28,6 @@ const styles = {
     textAlign: 'center',
     lineHeight: '1em',
     marginBottom: '.25em',
-    textAlign: 'center',
     color: orange
   },
   img: Object.assign({}, imgResponsive, centerBlock, {
@@ -41,7 +40,6 @@ const styles = {
     textAlign: 'center',
     lineHeight: '1em',
     marginBottom: '0',
-    textAlign: 'center',
     color: orange,
     marginTop: '1.5em',
     textTransform: 'uppercase'

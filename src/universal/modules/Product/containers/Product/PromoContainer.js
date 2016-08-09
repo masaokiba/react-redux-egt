@@ -37,7 +37,7 @@ export default class PromoContainer extends Component {
 
     if (this.props.pureSweat) {
       startDate = moment().startOf('day').toDate();
-      endDate = moment('2016 07 17', 'YYYY MM DD').endOf('day').toDate();
+      endDate = moment('2016 07 18', 'YYYY MM DD').endOf('day').toDate();
     }
 
     let promo = {};

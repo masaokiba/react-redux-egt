@@ -2,16 +2,10 @@ import React, {Component, PropTypes} from 'react';
 import {push} from 'react-router-redux';
 
 import PlayersWorkedWith from '../PlayersWorkedWith/PlayersWorkedWith';
-import MeetTheCoach from '../MeetTheCoach/MeetTheCoach';
 import Logos from '../Logos/Logos';
 import MainProduct from '../MainProduct/MainProduct';
-import Steps from '../Steps/Steps';
-import MimicsRealGamesSection from '../MimicsRealGames/MimicsRealGamesSection';
-import GameSpecificSection from '../GameSpecific/GameSpecificSection';
 import Guarantee from 'universal/components/Guarantee/Guarantee';
-import PackageTable from '../PackageTable/PackageTable';
 import WhatToExpect from '../WhatToExpect/WhatToExpect';
-import TrainingScience from '../TrainingScience/TrainingScience';
 import CallToAction from '../CallToAction/CallToAction';
 import Attention from 'universal/components/Attention/Attention';
 import Section from 'universal/components/Section/Section';

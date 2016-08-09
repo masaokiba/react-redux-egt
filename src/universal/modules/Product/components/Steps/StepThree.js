@@ -77,7 +77,6 @@ const styles = {
   }),
   itemImg: Object.assign({}, imgResponsive, {
     display: 'inline-block',
-    verticalAlign: 'middle',
     verticalAlign: 'top',
     marginTop: 20
   }),

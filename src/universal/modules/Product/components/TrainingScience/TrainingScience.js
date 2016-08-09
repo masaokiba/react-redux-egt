@@ -26,8 +26,7 @@ const styles = {
     fontWeight: accuBold,
     textAlign: 'center',
     lineHeight: '1em',
-    marginBottom: 0,
-    textAlign: 'center'
+    marginBottom: 0
   },
   img: Object.assign({}, imgResponsive, centerBlock, {
     marginTop: '.65em'
